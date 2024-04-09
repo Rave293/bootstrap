@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+}
+
+.hero-sec{
+    background-image: url("./g123.png");
+    background-size: cover;
+    margin: auto;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backdrop{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.37);
+    height: 650px;
+    width: 100%;
+    z-index: 3;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > img{
+    height: 80px;
+    width: 190px;
+
+}
+ul > li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+li > a{
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+}
+.home-h{
+    border-bottom: 2px solid red;
+}
+.hero-content{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.9rem;
+  z-index: 10;
+}
+.hero-content > p{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-btn{
+    background-color: rgb(242, 2, 2);
+    color: white;
+    height: 40px;
+    width: 200px;
+    outline: none;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+     font-family: serif;
+     font-size: 1.3rem;
+}
+.btn-anchor{
+    text-decoration: none;
+    color: white;
+}
+.hero-btn:hover{
+   cursor: pointer;
+   background-color: rgb(27, 21, 21);
+   color: rgb(252, 241, 241);
+   transition: 3s;
+}
+.con-about{
+    display: flex;
+    margin-top: 1.2rem;
+    justify-items: center;
+}
+.about-us{
+    margin-top: 1.8rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.contact-us{
+    margin-top: 4rem;
+    font-family: serif;
+    font-size: 1.2rem ;
+    line-height: 2rem;
+      text-align: center;  
+}
+.btn-contact{
+    background-color: rgba(242, 2, 2, 0.921);
+    color: white;
+    height: 40px;
+    width: 200px;
+    outline: none;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+     font-family: serif;
+     font-size: 1rem;
+     cursor: pointer;
+}
+
+.footer-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: rgba(20, 14, 9, 0.596);
+    color: white;
+    border-radius: 5px;
+    height: 200px;
+    width: 100%;
+    
+}
+.footer-con > p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(253, 246, 246, 0.82);
+}
+
+.icon-h{
+    height: 40px;
+    width: 40px;
+   padding: 5px;
+}
